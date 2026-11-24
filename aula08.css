@@ -1,0 +1,114 @@
+.container{
+    display: flex;
+    background-color: pink;
+    border-style: dotted;
+    border-color: magenta;
+    color:darkmagenta;
+    padding: 50px;
+    flex-wrap: nowrap;
+}
+
+.container div{
+    width: 100px;
+    text-align: center;
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px;
+    border-style: double;
+    border-color: darkgray;
+    border-width: 2px;
+}
+
+
+/*alterando a direção*/
+
+.containercoluna{
+   display: flex;
+    background-color: pink;
+    border-style: dotted;
+    border-color: magenta;
+    color:darkmagenta;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.containercoluna div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px;
+    border-style: double;
+    border-color: darkgray;
+    border-width: 2px;
+    flex-direction: column;
+}
+
+.containerlinhainversa{
+   display: flex;
+    background-color: pink;
+    border-style: dotted;
+    border-color: magenta;
+    color:darkmagenta;
+    padding: 50px;
+    flex-direction:row-reverse;
+}
+
+.containerlinhainversa div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px;
+    border-style: double;
+    border-color: darkgray;
+    border-width: 2px;
+    flex-direction: column;
+    flex-direction:row-reverse;
+}
+
+.containercolunainversa{
+   display: flex;
+    background-color: pink;
+    border-style: dotted;
+    border-color: magenta;
+    color:darkmagenta;
+    padding: 50px;
+    flex-direction:column-reverse;
+}
+
+.containercolunainversa div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px;
+    border-style: double;
+    border-color: darkgray;
+    border-width: 2px;
+    flex-direction: column;
+    flex-direction:column-reverse;
+
+}
+
+.containerquebralinha{
+    display: flex;
+    background-color: pink;
+    border-style: dotted;
+    border-color: magenta;
+    color:darkmagenta;
+    padding: 50px;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.containerquebralinha div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px;
+    border-style: double;
+    border-color: darkgray;
+    border-width: 2px;
+    flex-direction: column;
+    flex-direction:column-reverse;
+
+}
